@@ -14,16 +14,17 @@ public class Product{
     }
 
     public double product(double x, double y) {
-        return x*z;
+        return x*y;
     }
 
-    public static void main(String args[]){
+    public void main(String[] args){
 
         Product p= new Product();
-        p.product(2,5);
-        p.product(5,2,3);
-        p.product(2.5,5.0);
-        System.out.println("product Dne");
+        
+    
+        System.out.println(p.product(2,5));
+        System.out.println(p.product(5,2,3));
+        System.out.println( p.product(2.5,5.0));
     
     }
 }
